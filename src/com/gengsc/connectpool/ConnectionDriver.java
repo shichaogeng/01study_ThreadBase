@@ -7,10 +7,10 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * ����ѧԺ-Mark��ʦ
- * �������ڣ�2017/11/15
- * ����ʱ��: 17:06
- * �������ݿ����ӣ�����ģʽ
+ * shichaogeng
+ * 创建日期：2017/11/15
+ * 创建时间: 17:06
+ * 创建数据库连接，工厂模式
  */
 public class ConnectionDriver {
 
@@ -291,7 +291,7 @@ public class ConnectionDriver {
         }
     }
 
-    public static final Connection getConnectiong(){
+    public static final Connection getConnection(){
         return new ConnectionImpl();
     }
 }
